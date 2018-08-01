@@ -3,7 +3,7 @@ import javax.swing.*;
 import java.awt.image.*;
 import org.opencv.core.Mat;
 class displayimage{
-	 public BufferedImage Mat2BufferedImage(Mat m)
+	 public static BufferedImage Mat2BufferedImage(Mat m)
 	    {
 	        int type = BufferedImage.TYPE_BYTE_GRAY;
 	        if (m.channels() > 1)
